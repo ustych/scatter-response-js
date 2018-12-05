@@ -1,8 +1,3 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Scatter from './scatter-response-js'
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+window.Scatter = Scatter
